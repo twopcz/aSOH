@@ -3,10 +3,6 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
   $(this).ekkoLightbox();
 });
 
-$(function() {
-  $('#hide').hide();
-});
-
 $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 100) {
