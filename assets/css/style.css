@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 #logo {
   max-width: 75px;
 }
@@ -13,6 +14,11 @@ html {
 
 #top-nav {
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+.img-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .modal-backdrop.show {
