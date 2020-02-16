@@ -16,9 +16,15 @@ html {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.img-fluid {
+
+/* .img-fluid {
   padding-left: 15px;
   padding-right: 15px;
+} */
+
+.col-md-12 .panorama-wrapper {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .modal-backdrop.show {
