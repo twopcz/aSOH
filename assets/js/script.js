@@ -5,7 +5,7 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event) {
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 100) {
+  if (y > 50) {
     $('#hide').fadeIn();
   } else {
     $('#hide').fadeOut();
