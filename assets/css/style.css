@@ -22,10 +22,10 @@ html {
   padding-right: 15px;
 } */
 
-.col-md-12 .panorama-wrapper {
+/* .col-sm-8 .panorama-wrapper {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
+} */
 
 .modal-backdrop.show {
   opacity: 0.8;
@@ -36,6 +36,8 @@ html {
   white-space: nowrap;
   display: block;
   float: none;
+  width: 160%;
+  margin-left: -30%;
 }
 
 .panorama-picture {
