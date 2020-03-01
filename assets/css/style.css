@@ -3,7 +3,7 @@ html {
 }
 
 #logo {
-  max-width: 75px;
+  max-height: 65px;
 }
 
 #hide {
@@ -41,5 +41,5 @@ html {
 }
 
 .panorama-picture {
-  max-height: calc(100vh - 93px);
+  max-height: calc(100vh - 91px);
 }
