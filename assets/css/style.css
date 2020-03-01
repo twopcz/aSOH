@@ -40,8 +40,8 @@ body {
   .panorama-wrapper {
     overflow-x: auto;
     white-space: nowrap;
-    width: 150%;
-    margin-left: -25%;
+    width: 180%;
+    margin-left: -40%;
   }
 }
 
