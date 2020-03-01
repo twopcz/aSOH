@@ -16,30 +16,30 @@ html {
   background-color: rgba(255, 255, 255);
 }
 
-
-/* .img-fluid {
-  padding-left: 15px;
-  padding-right: 15px;
-} */
-
-/* .col-sm-8 .panorama-wrapper {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-} */
-
 .modal-backdrop.show {
   opacity: 0.8;
 }
 
-.panorama-wrapper {
-  overflow-x: auto;
-  white-space: nowrap;
-  display: block;
-  float: none;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+@media only screen and (max-width: 768px) {
+  .panorama-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+    float: none;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .panorama-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 150%;
+    margin-left: -25%;
+  }
 }
 
 .panorama-picture {
-  max-height: 100vh;
+  max-height: calc(100vh - 93px);
 }
